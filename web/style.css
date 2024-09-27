@@ -4,50 +4,58 @@ body {
 }
 
 nav {
-  margin-top: 35px;
-  margin-left: 50px;
-  margin-right: 50px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: -8px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+  margin-right: 20px;
+  margin-left: 100px;
 }
 a {
   color: white;
   font-family: fantasy;
   font-size: 17px;
-  margin-left: 20px;
-  padding: 25px;
-}
-.logonav {
-  position: absolute;
-  left: 43vw;
-  top: -10px;
-  width: 110px;
-  height: 110px;
-  background-color: black;
+
 }
 
-.horario {
-  position: absolute;
-  right: 400px;
-  top: 10px;
+.logonav{
+  width: 170px;
+  height: 70px;
+  margin-left: 290px;
+  margin-right: 150px;
+  margin-top: -25px;
+}
+.instagram{
+  width: 65px;
+  height: 40px;
+
+}
+.twitter{
+  width: 60px;
+  height: 35px;
+
+
 }
 
-.logoinsta{
-    width: 65px;
-    height: 40px;
-    position:absolute;
-    right: 300px;
-    top: 27px;
+.instaposicion{
+  margin-top: -10px;
 }
-.logotwitter{
-    width: 55px;
-    height: 35px;
-    position:absolute;
-    right: 250px;
-    top: 30px;
+
+.twitterposicion{
+  position: absolute;
+  left: 1730px;
+  top: 18px;
 }
-.logofacebook{
-    width: 30px;
-    height: 28px;
-    position:absolute;
-    right: 210px;
-    top: 33px;
+.bordenav{
+  border-bottom: 1px solid lightgray;
 }
